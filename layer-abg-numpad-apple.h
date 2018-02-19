@@ -19,17 +19,17 @@
 // *INDENT-OFF*
 
 KEYMAP_STACKED
-  (___,      ___, ___,           ___,           ___,            ___,        ___,
-   Key_Tab,  ___, ___,           Key_UpArrow,   ___,            ___,        Key_PageUp,
-   Key_Home, ___, Key_LeftArrow, Key_DownArrow, Key_RightArrow, ___,
-   Key_End,  ___, ___,           ___,           ___,            Key_Insert, Key_PageDown,
+  (___,      XXX, XXX,           XXX,           XXX,            XXX,        ___,
+   Key_Tab,  XXX, XXX,           Key_UpArrow,   XXX,            XXX,        Key_PageUp,
+   Key_Home, XXX, Key_LeftArrow, Key_DownArrow, Key_RightArrow, XXX,
+   Key_End,  XXX, XXX,           XXX,           XXX,            Key_Insert, Key_PageDown,
    ___, ___, ___, ___,
    ___,
 
-   M(MACRO_VERSION_INFO),  ___,                 Key_KeypadClear, Key_KeypadEquals,   Key_KeypadDivide,   Key_KeypadMultiply, ___,
-   ___,                    ___,                 Key_Keypad7,     Key_Keypad8,        Key_Keypad9,        Key_KeypadSubtract, ___,
-                           Key_Backspace,       Key_Keypad4,     Key_Keypad5,        Key_Keypad6,        Key_KeypadAdd,      ___,
-   ___,                    Key_KeypadComma,     Key_Keypad1,     Key_Keypad2,        Key_Keypad3,        Key_KeypadEnter,    ___,
+   M(MACRO_VERSION_INFO),  XXX,                 Key_KeypadClear, Key_KeypadEquals,   Key_KeypadDivide,   Key_KeypadMultiply, ___,
+   ___,                    XXX,                 Key_Keypad7,     Key_Keypad8,        Key_Keypad9,        Key_KeypadSubtract, XXX,
+                           Key_Backspace,       Key_Keypad4,     Key_Keypad5,        Key_Keypad6,        Key_KeypadAdd,      XXX,
+   ___,                    Key_KeypadComma,     Key_Keypad1,     Key_Keypad2,        Key_Keypad3,        Key_KeypadEnter,    XXX,
    Key_Keypad000, Key_Keypad00, Key_Keypad0, Key_KeypadDot,
    ___)
 

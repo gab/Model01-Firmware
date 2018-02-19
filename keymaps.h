@@ -51,10 +51,10 @@
  */
 
 // Use stock modifier key layount
-//include "aliases-std-modifiers.h"
+#include "aliases-std-modifiers.h"
 
 // Use kinesis-style modifier key layout
-#include "aliases-abg-modifiers-thumb-enter.h"
+//include "aliases-abg-modifiers-thumb-enter.h"
 
 // Use ABG's friendly modifier layout
 //include "aliases-abg-modifiers.h"
@@ -102,7 +102,7 @@ const Key keymaps[][ROWS][COLS] PROGMEM = {
   [QWERTY] =
 #include "layer-std-qwerty-parameterized.h"
   , [NUMPAD] =
-#include "layer-abg-numpad-apple.h"
+#include "layer-std-numpad.h"
   , [FUNCTION] =
 #include "layer-abg-function-inverted-t.h"
 };
